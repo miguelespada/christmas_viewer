@@ -25,7 +25,7 @@ void HTTP::downloadResponse(ofxHttpResponse & response){
         }
         else{
             app->setRemoteData(response.responseBody);
-            refresh_rate = 30 * 60;
+            refresh_rate = 30 * 30;
         }
     }
     else{

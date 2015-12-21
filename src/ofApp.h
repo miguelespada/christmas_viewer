@@ -13,6 +13,7 @@ class ofApp : public ofBaseApp{
 	public:
 		void setup();
 		void draw();
+        void keyPressed(int key);
     
         App *app;
         OscAdapter *osc;

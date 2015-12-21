@@ -227,7 +227,6 @@
 		E7F985F515E0DE99003869B5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
 		E98E05C10BCDA4C68BBAF442 /* standbyState.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = standbyState.h; path = src/standbyState.h; sourceTree = SOURCE_ROOT; };
 		ECF8674C7975F1063C5E30CA /* ofxGuiGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxGuiGroup.cpp; path = ../../../addons/ofxGui/src/ofxGuiGroup.cpp; sourceTree = SOURCE_ROOT; };
-		ED877F2B2A5399936E9B0DA0 /* path.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = path.hpp; path = src/path.hpp; sourceTree = SOURCE_ROOT; };
 		F2B099E6BD1199664C48B177 /* ofxJSONElement.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxJSONElement.cpp; path = ../../../addons/ofxJSON/src/ofxJSONElement.cpp; sourceTree = SOURCE_ROOT; };
 		F4F5B6B8BA2BD52C646ED908 /* OscException.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscException.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscException.h; sourceTree = SOURCE_ROOT; };
 		F7FBC56859535E597B24BB91 /* NetworkingUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = NetworkingUtils.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h; sourceTree = SOURCE_ROOT; };
@@ -349,6 +348,54 @@
 				A763ED608B35AE3310251DEE /* src */,
 			);
 			name = ofxGui;
+			sourceTree = "<group>";
+		};
+		497D6AB31C27E4530055C902 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90BFBBD5A23A6B332DBE2FCB /* app.cpp */,
+				65E09480F64B1811D13EAFC6 /* app.h */,
+				DAA6B20639EEADCDF3786D98 /* myGif.hpp */,
+				41689E8160E5A56BC2D7A0B7 /* myText.hpp */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		497D6AB41C27E46B0055C902 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E5748F9F27EDF4B8E35CF988 /* gui.hpp */,
+				4B948DEC4411B26F3C9BE5DE /* assets.cpp */,
+				5EDDE28A9F00A9326EB8BEDD /* assets.h */,
+				6AD633BB825224F649931154 /* http.cpp */,
+				52F365DD6156D52D1E836426 /* http.h */,
+				29684B75AB39E01E9D4E4A11 /* OscAdapter.cpp */,
+				44E85CB12615AE2DF06AB826 /* OscAdapter.h */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		497D6AB51C27E4730055C902 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				4E7BF751B700727A3ED7D7C0 /* standbyState.cpp */,
+				E98E05C10BCDA4C68BBAF442 /* standbyState.h */,
+			);
+			name = States;
+			sourceTree = "<group>";
+		};
+		497D6AB61C27E47D0055C902 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1F44E9EE2EF6349BD0861BC7 /* baseApp.cpp */,
+				47EADD74A00E26E8E1291F2A /* baseApp.h */,
+				6E51E3D05CA81B27F4B91319 /* baseAssets.cpp */,
+				1F58CB0D9A9522C0A4EDE23B /* baseAssets.h */,
+				1EAF0215F3CB3EEA2F412080 /* baseState.cpp */,
+				7840864731B008A99DAFA3C7 /* baseState.h */,
+				B506690DF10DC1631E2DE5CC /* singletonAssets.cpp */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 		49A9E39C52C2DF4DDA1E185F /* src */ = {
@@ -632,27 +679,10 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
-				90BFBBD5A23A6B332DBE2FCB /* app.cpp */,
-				65E09480F64B1811D13EAFC6 /* app.h */,
-				4B948DEC4411B26F3C9BE5DE /* assets.cpp */,
-				5EDDE28A9F00A9326EB8BEDD /* assets.h */,
-				1F44E9EE2EF6349BD0861BC7 /* baseApp.cpp */,
-				47EADD74A00E26E8E1291F2A /* baseApp.h */,
-				6E51E3D05CA81B27F4B91319 /* baseAssets.cpp */,
-				1F58CB0D9A9522C0A4EDE23B /* baseAssets.h */,
-				1EAF0215F3CB3EEA2F412080 /* baseState.cpp */,
-				7840864731B008A99DAFA3C7 /* baseState.h */,
-				E5748F9F27EDF4B8E35CF988 /* gui.hpp */,
-				6AD633BB825224F649931154 /* http.cpp */,
-				52F365DD6156D52D1E836426 /* http.h */,
-				DAA6B20639EEADCDF3786D98 /* myGif.hpp */,
-				41689E8160E5A56BC2D7A0B7 /* myText.hpp */,
-				29684B75AB39E01E9D4E4A11 /* OscAdapter.cpp */,
-				44E85CB12615AE2DF06AB826 /* OscAdapter.h */,
-				ED877F2B2A5399936E9B0DA0 /* path.hpp */,
-				B506690DF10DC1631E2DE5CC /* singletonAssets.cpp */,
-				4E7BF751B700727A3ED7D7C0 /* standbyState.cpp */,
-				E98E05C10BCDA4C68BBAF442 /* standbyState.h */,
+				497D6AB31C27E4530055C902 /* Model */,
+				497D6AB41C27E46B0055C902 /* Services */,
+				497D6AB61C27E47D0055C902 /* Base */,
+				497D6AB51C27E4730055C902 /* States */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;

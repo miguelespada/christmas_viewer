@@ -26,3 +26,11 @@ void ofApp::draw(){
     ////    gui->draw();
 }
 
+void ofApp::keyPressed(int key){
+        switch (key) {
+            case 'r':
+                http->download();
+                break;
+        }
+}
+

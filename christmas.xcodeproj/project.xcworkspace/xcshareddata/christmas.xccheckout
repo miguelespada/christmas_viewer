@@ -6,32 +6,48 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>A7AE7D58-AC4C-4ADB-A749-913DB326C9D6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>christmas</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>82C2DA8EC60CC36BD4CBE078AD41475599400228</key>
 		<string>https://github.com/arturoc/ofxHttpUtils.git</string>
+		<key>90F967D51BD09159B825AFB09B831B076FF45380</key>
+		<string>https://github.com/miguelespada/christmas_viewer.git</string>
 		<key>F3EDE78E54CFD700064972770C3E610430FCD9D9</key>
 		<string>https://github.com/mpcdigital/ofxAwesomium.git</string>
 		<key>F4CCB893AFADB97238A965FD2F28717F1CAAE613</key>
 		<string>https://github.com/astellato/ofxSyphon.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>christmas.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>82C2DA8EC60CC36BD4CBE078AD41475599400228</key>
-		<string>ofxHttpUtils/</string>
+		<string>../../../../../addons/ofxHttpUtils</string>
+		<key>90F967D51BD09159B825AFB09B831B076FF45380</key>
+		<string>../..</string>
 		<key>F3EDE78E54CFD700064972770C3E610430FCD9D9</key>
-		<string>ofxAwesomium/</string>
+		<string>../../../../../addons/ofxAwesomium</string>
 		<key>F4CCB893AFADB97238A965FD2F28717F1CAAE613</key>
-		<string>ofxSyphon/</string>
+		<string>../../../../../addons/ofxSyphon</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/astellato/ofxSyphon.git</string>
+	<string>https://github.com/miguelespada/christmas_viewer.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F4CCB893AFADB97238A965FD2F28717F1CAAE613</string>
+	<string>90F967D51BD09159B825AFB09B831B076FF45380</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>90F967D51BD09159B825AFB09B831B076FF45380</string>
+			<key>IDESourceControlWCCName</key>
+			<string>christmas</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
