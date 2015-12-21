@@ -1,0 +1,10 @@
+ofxGui
+ofxOsc
+ofxXmlSettings
+ofxJSON
+ofxUI
+ofxHttpUtils
+ofxSyphon
+ofxTrueTypeFontUC
+ofxAwesomium
+ofxHTTP

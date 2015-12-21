@@ -1,0 +1,9 @@
+{
+  "local_port" : 8001,
+  "remote_ip" : "localhost",
+  "remote_port" : 8080,
+  "width" : 1024,
+  "height" : 1000,
+  "scale" : 1,
+  "remote_data" : "http://gifthecaravan.herokuapp.com/last.json"
+ }
