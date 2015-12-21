@@ -16,6 +16,7 @@ public:
     void loadAssets();
     
     ofImage caravana;
+    ofSoundPlayer newGif;
     
     ofVideoPlayer myVideo;
 };

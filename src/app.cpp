@@ -13,6 +13,9 @@ void App::processRemoteData(){
         string url = remoteData["url"].asString();
         g.loadFile(url);
         t.setString(remoteData["name"].asString() + " - " + remoteData["body"].asString());
+        cout << remoteData["favorited"].asString() << endl;
+        if(remoteData["favorited"].asString() == "false")
+            Assets::getInstance()->newGif.play();
         bRemoteNewData = false;
     }
 }

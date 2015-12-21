@@ -8,6 +8,8 @@ void ofApp::setup(){
     http = new HTTP(app);
 //    osc = new OscAdapter(app);
 //    gui = new Gui(app, osc);
+    arduino = new Arduino(app);
+    
     ofSetFrameRate(30);
     ofEnableSmoothing();
     

@@ -18,6 +18,7 @@
 		39C89FCC977D16B15BF7BDFE /* baseAssets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E51E3D05CA81B27F4B91319 /* baseAssets.cpp */; };
 		41DB37B04B69C442968EA316 /* app.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90BFBBD5A23A6B332DBE2FCB /* app.cpp */; };
 		483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D67A00EB899FAC09430597 /* ofxLabel.cpp */; };
+		497D6ABA1C27E9AC0055C902 /* arduino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 497D6AB81C27E9AC0055C902 /* arduino.cpp */; };
 		49AA5C5F5D4C471218D5B0E3 /* baseState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF0215F3CB3EEA2F412080 /* baseState.cpp */; };
 		49C304FD1C27325500D902F5 /* Awesomium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C304FC1C27325500D902F5 /* Awesomium.framework */; };
 		49C304FF1C27336200D902F5 /* Syphon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D58DCB2C0AEFDE6171E29540 /* Syphon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -144,6 +145,8 @@
 		46BBCC26D60B589958BF0D03 /* ofxSyphonServer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSyphonServer.h; path = ../../../addons/ofxSyphon/src/ofxSyphonServer.h; sourceTree = SOURCE_ROOT; };
 		47EADD74A00E26E8E1291F2A /* baseApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = baseApp.h; path = src/baseApp.h; sourceTree = SOURCE_ROOT; };
 		48974F980F51769171D0B2F5 /* IpEndpointName.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IpEndpointName.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h; sourceTree = SOURCE_ROOT; };
+		497D6AB81C27E9AC0055C902 /* arduino.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = arduino.cpp; sourceTree = "<group>"; };
+		497D6AB91C27E9AC0055C902 /* arduino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arduino.h; sourceTree = "<group>"; };
 		49C304FC1C27325500D902F5 /* Awesomium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Awesomium.framework; sourceTree = "<group>"; };
 		49C305011C2734E100D902F5 /* SyphonNameboundClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyphonNameboundClient.m; sourceTree = "<group>"; };
 		4B948DEC4411B26F3C9BE5DE /* assets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = assets.cpp; path = src/assets.cpp; sourceTree = SOURCE_ROOT; };
@@ -364,6 +367,8 @@
 		497D6AB41C27E46B0055C902 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				497D6AB81C27E9AC0055C902 /* arduino.cpp */,
+				497D6AB91C27E9AC0055C902 /* arduino.h */,
 				E5748F9F27EDF4B8E35CF988 /* gui.hpp */,
 				4B948DEC4411B26F3C9BE5DE /* assets.cpp */,
 				5EDDE28A9F00A9326EB8BEDD /* assets.h */,
@@ -852,6 +857,7 @@
 				510CAFE035E576A4E1502D52 /* UdpSocket.cpp in Sources */,
 				A29D8C96AE042ECEAA1BD4F3 /* NetworkingUtilsWin.cpp in Sources */,
 				28090DEB5109115003E8F1C5 /* UdpSocketWin.cpp in Sources */,
+				497D6ABA1C27E9AC0055C902 /* arduino.cpp in Sources */,
 				62545D179C94265CA1389D4A /* OscOutboundPacketStream.cpp in Sources */,
 				C4782ECC372420ACE0615B74 /* OscPrintReceivedElements.cpp in Sources */,
 				0546D1A38E13BD319CC9755B /* OscReceivedElements.cpp in Sources */,

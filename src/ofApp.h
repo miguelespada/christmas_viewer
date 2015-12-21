@@ -6,6 +6,7 @@
 #include "gui.hpp"
 #include "http.h"
 #include "ofxSyphon.h"
+#include "arduino.h"
 
 
 class ofApp : public ofBaseApp{
@@ -19,6 +20,7 @@ class ofApp : public ofBaseApp{
         OscAdapter *osc;
         Gui *gui;
         HTTP *http;
+    Arduino *arduino;
     
     
     ofxSyphonServer mainOutputSyphonServer;

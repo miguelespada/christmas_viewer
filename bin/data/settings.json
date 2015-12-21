@@ -5,5 +5,5 @@
   "width" : 1024,
   "height" : 1000,
   "scale" : 1,
-  "remote_data" : "http://gifthecaravan.herokuapp.com/last.json"
+  "remote_data" : "http://localhost:3000/last.json"
  }
