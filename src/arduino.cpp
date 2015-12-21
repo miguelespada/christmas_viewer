@@ -72,9 +72,14 @@ int Arduino::getArduinoPort(){
 void Arduino::updateArduino(){
     ard.update();
     
-    if(ofGetFrameNum() % 100 == 0){
+    if(app->bNew){
         ard.sendDigital(2, ARD_HIGH);
         ofSleepMillis(30);
+        ard.sendDigital(2, ARD_HIGH);
+        ofSleepMillis(30);
+        ard.sendDigital(2, ARD_HIGH);
+        ofSleepMillis(30);
+        app->bNew = false;
     }
     else
         ard.sendDigital(2, ARD_LOW);

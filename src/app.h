@@ -20,6 +20,7 @@ public:
     
     void processRemoteData();
     void drawGifs();
+    bool bNew;
 };
 
 #endif

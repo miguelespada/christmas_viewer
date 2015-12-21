@@ -3,6 +3,8 @@
 
 
 App::App():BaseApp(){
+    bNew = false;
+
 }
 
 
@@ -14,8 +16,10 @@ void App::processRemoteData(){
         g.loadFile(url);
         t.setString(remoteData["name"].asString() + " - " + remoteData["body"].asString());
         cout << remoteData["favorited"].asString() << endl;
-        if(remoteData["favorited"].asString() == "false")
+        if(remoteData["favorited"].asString() == "false"){
             Assets::getInstance()->newGif.play();
+            bNew = true;
+        }
         bRemoteNewData = false;
     }
 }
