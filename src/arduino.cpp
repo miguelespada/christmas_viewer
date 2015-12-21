@@ -73,12 +73,12 @@ void Arduino::updateArduino(){
     ard.update();
     
     if(app->bNew){
-        ard.sendDigital(2, ARD_HIGH);
-        ofSleepMillis(30);
-        ard.sendDigital(2, ARD_HIGH);
-        ofSleepMillis(30);
-        ard.sendDigital(2, ARD_HIGH);
-        ofSleepMillis(30);
+        for(int i = 0; i < 4; i ++){
+            ard.sendDigital(2, ARD_HIGH);
+            ofSleepMillis(100);
+            ard.sendDigital(2, ARD_LOW);
+            ofSleepMillis(100);
+        }
         app->bNew = false;
     }
     else
